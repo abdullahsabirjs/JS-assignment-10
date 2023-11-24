@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+    <div id="result"></div>
+     
+    
+    <hr><hr><br>
+
+
+    <div class="item">
+        <p id="brief">Brief details of the item...</p>
+        <p id="fullDetails" style="display: none;">Full details of the item...</p>
+        <button id="toggleButton" onclick="toggleDetails()">Read More</button>
+    </div>
+    
+
+ <hr><hr><br>
+ 
+
+    
+    <form id="studentForm">
+        <input type="text" id="studentName" placeholder="Name" required>
+        <input type="text" id="studentAge" placeholder="Age" required>
+         <input type="text"  id="studentClass" placeholder="class" required>
+        <button type="submit">Add Student</button>
+    </form>
+    
+    <table id="studentTable">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>class</th>
+            <th>Actions</th>
+        </tr>
+        <!-- Rows will be added here dynamically -->
+    </table>
+    
+
+    <script src="script.js"></script> 
+</body>
+</html>

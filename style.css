@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Added background color */
+    margin: 0;
+    padding: 20px; /* Adjust padding */
+}
+
+/* ... existing form styles ... */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Add other styles as needed */
